@@ -14,5 +14,10 @@ test(function (t) {
         'X node.js Y',
         '4 boop w'
     ];
-    t.same(xs.filter(filter), [ '2 node.js 5' ]);
+    
+    var res = [];
+    for (var i = 0; i < xs.length; i++) {
+        if (filter(xs[i])) res.push(xs[i]);
+    }
+    t.same(res, [ '2 node.js 5' ]);
 });
