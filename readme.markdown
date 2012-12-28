@@ -6,6 +6,10 @@ This module is like
 [perl's quotemeta](http://perldoc.perl.org/functions/quotemeta.html)
 without the part about `\Q...\E`.
 
+[![build status](https://secure.travis-ci.org/substack/quotemeta.png)](http://travis-ci.org/substack/quotemeta)
+
+[![browser support](http://ci.testling.com/substack/quotemeta.png)](http://ci.testling.com/substack/quotemeta)
+
 # example
 
 ``` js
